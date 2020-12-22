@@ -9,11 +9,11 @@ inp.on("line", (data) => {
 inp.on("close", () => {
 
 //start-here
-let m = "";
-let n = parseInt(userInput[0])
-for(let i =1; i <= 3; i++) {
-   m += (n * i) + " ";
-}
-console.log(m.trim());
+let a = parseFloat(userInput[0]);
+let b = parseFloat(userInput[1]);
+let c = a+b;
+  {
+    console.log(c.toFixed(1));
+  }
 //end-here
 });
